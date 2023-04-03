@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-driver = webdriver.Chrome("C:\\Users\\bhoom\\Downloads\\chromedriver_win32\\chromedriver")
+driver = webdriver.Chrome("C:\\Users\\himaj\\Downloads\\chromedriver_win32\\chromedriver")
 driver.get("http://127.0.0.1:5000/")
 driver.execute_script("window.scrollTo(0, 200)") 
 gender=driver.find_element("id","gender")
