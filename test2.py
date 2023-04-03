@@ -1,4 +1,4 @@
-from selenium import webdriver
+import webdriver
 import time
 
 driver = webdriver.Chrome("C:\\Users\\bhoom\\Downloads\\chromedriver_win32\\chromedriver")
